@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
 
 	spec.source = {
 		:path => "/Users/andreykrit/Documents/mediasoup-client-swift-device",
-		:tag => spec.version.to_s
+		#:tag => spec.version.to_s
 	}
 
 	spec.frameworks =
