@@ -3,7 +3,10 @@ import Mediasoup_Private
 
 
 public class Device {
+    
 	private let device: DeviceWrapper
+    
+    public let test: Bool  = true
 
 	public init() {
 		self.device = DeviceWrapper()
