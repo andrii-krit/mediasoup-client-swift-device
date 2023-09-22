@@ -5,8 +5,6 @@ import Mediasoup_Private
 public class Device {
     
 	private let device: DeviceWrapper
-    
-    public let test: Bool  = true
 
 	public init() {
 		self.device = DeviceWrapper()
@@ -15,6 +13,10 @@ public class Device {
 	public func isLoaded() -> Bool {
 		return device.isLoaded()
 	}
+    
+    public func test() -> Bool {
+        return true
+    }
 
 	public func load(with routerRTPCapabilities: String) throws {
 		try convertMediasoupErrors {
