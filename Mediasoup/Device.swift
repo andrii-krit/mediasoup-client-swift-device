@@ -14,10 +14,6 @@ public class Device {
 	public func isLoaded() -> Bool {
 		return device.isLoaded()
 	}
-    
-    public func test() -> Bool {
-        return true
-    }
 
 	public func load(with routerRTPCapabilities: String) throws {
 		try convertMediasoupErrors {
